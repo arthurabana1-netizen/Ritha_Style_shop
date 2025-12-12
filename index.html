@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>gemin shopping</title>
+    <link rel="stylesheet" href="./style.css">
+
+  </head>
+    
+  <body>
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ritha_Style Shop</title>
+    
+    <meta property="og:title" content="Ritha_Style Shop">
+    <meta property="og:description" content="Discover the latest collection of stylish apparel at Ritha_Style.">
+    <meta property="og:image" content="https://i.postimg.cc/8kJj0ZnH/Ritha_for_scocial.png"> 
+    <link rel="icon" type="image/png" href="https://i.postimg.cc/8kJj0ZnH/Ritha_for_scocial.png">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div id="background-fader"></div>
+
+    <header>
+        <div class="header-spacer"></div> 
+        
+        <div class="header-logo-container">
+            <img src="https://i.postimg.cc/MXJkP6rG/Ritha_style_logo.png" alt="Ritha_Style Logo" class="header-logo-img">
+        </div>
+
+        <div class="cart-icon" onclick="toggleCart()">
+            <i class="fa-solid fa-shopping-cart"></i>
+            <span id="cart-count">0</span>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            
+            <div class="welcome-banner">
+                <h2 class="welcome-text">Welcome to </h2>
+                <img src="https://i.postimg.cc/MXJkP6rG/Ritha_style_logo.png" alt="Ritha_Style Logo" class="welcome-logo">
+            </div>
+
+            <div class="social-media-container">
+                <a href="https://www.instagram.com/rithaineza3?igsh=bjYwOWlxb20xNGwy" target="_blank" class="social-link">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="https://www.tiktok.com/@rithaneza" target="_blank" class="social-link">
+                    <i class="fa-brands fa-tiktok"></i>
+                </a>
+            </div>
+            
+            <div id="hero-slider" class="product-slider">
+            </div>
+            
+            <div class="filter-bar">
+                <input type="text" id="search-input" placeholder="Search products..." onkeyup="filterAndSearch()">
+            </div>
+            
+            <div id="product-container">
+                <div class="loading">Loading products...</div>
+            </div>
+        </div>
+    </main>
+
+    <div id="preview-modal" class="modal">
+        <div class="modal-content">
+        </div>
+    </div>
+
+    <div id="cart-modal" class="cart-sidebar-wrapper">
+        <div class="cart-sidebar">
+            <div class="cart-header">
+                <h2>Your Cart</h2>
+                <span class="close-cart" onclick="toggleCart()">&times;</span>
+            </div>
+            
+            <div id="cart-items">
+                <p>Your cart is empty.</p>
+            </div>
+            
+            <div class="cart-footer">
+                <h3>Total: <span id="cart-total">0</span> RWF</h3>
+                <button onclick="checkoutViaWhatsApp()" class="checkout-btn">
+                    <i class="fa-brands fa-whatsapp"></i> Order via WhatsApp
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <a href="#" onclick="openChat()" class="float-chat">
+        <i class="fa-brands fa-whatsapp my-float"></i>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
+    <script  src="./script.js"></script>
+
+  </body>
+  
+</html>
