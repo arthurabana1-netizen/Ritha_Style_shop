@@ -1,7 +1,7 @@
 // --- CONFIGURATION ---
 const SHEET_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQ-vTMRJm6J3bLyrGudDOBAuiu3jHGI2nlDkNNq61PVDdRYzXiQ9AnU7dcoVu9BxRMO63mz3-shaouT/pub?output=csv'; 
 const ADMIN_PHONE = '250792024116'; 
-const FALLBACK_LOGO = 'https://i.postimg.cc/MXJkP6rG/Ritha_style_logo.png';
+const FALLBACK_LOGO = 'https://i.postimg.cc/C5X1Chr9/Ritha-caligraphy.png';
 const HOVER_DELAY = 2000; 
 // ---------------------
 
